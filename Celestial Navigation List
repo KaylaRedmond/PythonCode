@@ -14,4 +14,5 @@ This program reads in multiple targets Right Ascensions and Declinations from a 
 Example:     Plot titled "SOAR Altitude Graph Multiple Targets" is the output of this program using the following command line arguments
 
              celestial_navigation_list.py 2015 09 01 273.0 32.0
+             
 There are also multiple tables outside the graph which label which times a given target is above an airmass of 2.0
