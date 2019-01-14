@@ -1,0 +1,5 @@
+TargetName1	11:23:31	56:00:21
+TargetName2	7:56:21		-32:57:12
+TargetName3	10:00:21	-78:10:12
+TargetName4	5:56:21		-12:02:12
+TargetName5	4:43:14		45:12:54
