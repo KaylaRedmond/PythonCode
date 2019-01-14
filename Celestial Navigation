@@ -1,0 +1,14 @@
+
+Python program name:     celestial_navigation.py
+
+Program function:     Plots the altitude of a target star over 24 hours as observed from a particular observing site on a particular date
+
+Program command line arguments:    
+          
+          celestial_navigation.py year month day obs_long obs_lat target_ra target_dec
+
+where obs_long is the observing longitude, obs_lat is the observing latitude, target_ra is the target's Right Ascension, target_dec is the target's declination
+
+Example:     Plot titled "SOAR Altitude Graph" is the output of this program using the following command line arguments
+
+             celestial_navigation.py 2015 09 01 273.0 32.0 4:00:00 12:00:00
