@@ -23,22 +23,7 @@ Example:     Plot titled "SOAR Altitude Graph" is the output of this program usi
           
           
 
-Python program name:     celestial_navigation_list.py
 
-Program function:     Plots the altitude of multiple targets over 24 hours as observed from a particular observing site on particular date
-
-Program command line arguments:     
-          
-          celestial_navigation.py year month day obs_long obs_lat
-
-where obs_long is the observing longitude, obs_lat is the observing latitude
-
-This program reads in multiple targets Right Ascensions and Declinations from a file titled "Target_Altitudes.txt"
-
-Example:     Plot titled "SOAR Altitude Graph Multiple Targets" is the output of this program using the following command line arguments
-
-             celestial_navigation_list.py 2015 09 01 273.0 32.0
-There are also multiple tables outside the graph which label which times a given target is above an airmass of 2.0
           
           
           
