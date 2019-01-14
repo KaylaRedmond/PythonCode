@@ -12,3 +12,4 @@ where obs_long is the observing longitude, obs_lat is the observing latitude, ta
 Example:     Plot titled "SOAR Altitude Graph" is the output of this program using the following command line arguments
 
              celestial_navigation.py 2015 09 01 273.0 32.0 4:00:00 12:00:00
+
