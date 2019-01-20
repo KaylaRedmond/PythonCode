@@ -1,0 +1,31 @@
+
+Python program name:     signal_noise.py
+
+Program function:     Calculate the signal to noise ratio for a specific telescope and target object.
+                      Also, calculate the signal to noise ratio taking into account more advanced topics like quantum efficiency.
+
+Program command line arguments:    
+          
+          signal_noise.py diameter, exposure, throughput, airmass, magnitude, pixel scale, number of pixels, % light pixels, 
+          quantum efficiency, dark current, readout noise
+          
+where diameter is diameter of telescope in meters, exposure time is in minutes, throughput of telescope, airmass of the observation,
+magnitude of the target object, pixel scale of object in arcseconds, number of pixels that make up photometric apeture, and fraction 
+of light source in those pixels, quantum effiency of telescope, dark current in camera in units of electrons/sec, readout noise in electrons
+
+The program outputs the standard signal to noise ratio as well as the advanced signal to noise ratio taking into account quantum efficiency,
+dark current, and readout noise.
+
+
+Example:     For supernova observed in the R band, with the following command line arguments, the signal to noise ratio is 43
+             and the updated signal to noise ratio is 40.5
+             
+             Command line arguments:
+
+             python signal_noise.py 1.2 1 0.8 1.0 20 1 4 0.9 0.9 0.01 5
+             
+             Therefore, a telescope diameter of 1.2 meters, exposure time of 1 minute, throughput of 0.8, airmass of 1.0, magnitude of 20,
+             pixel scale of 1 arcsecond/pixel, pixel area of 4 pixels^2, pixel fraction of 0.9, quantum efficiency of 0.9, dark current of 
+             0.01 electrons/second, and a readout of 5 electrons.
+             
+
