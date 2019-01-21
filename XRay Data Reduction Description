@@ -1,0 +1,17 @@
+
+Python program name:     xray.py
+
+Program function:     Taking x-ray data of a pulsar emitting a jet in the Vela cluster from the CHANDRA archive, make an x-ray image by 
+opening images, resizing and aligning them, selecting events with a specific STATUS, removing all events with energies < 1.2KeV thereby 
+removing a lot of background events, and blur the image using the numpy boxcar-average technique to improve the signal to noise of the 
+image (see "All Status and Grades" picture).  In addition, this program makes a low-resolution x-ray spectrum.  I make an aperture selecting only photon events around the pulsar
+brightest emission, and a second aperture around the bright emission region of the jet, and make a histogram of the two event energies 
+(see "Jet Energy" and "Pulsar Energy" plots).  
+
+
+Program command line arguments:    
+          
+          python xray.py
+
+Output Graphs:     "All Statuses and Grades"  ;  "Jet Energy"  ;  "Pulsar Energy"
+
