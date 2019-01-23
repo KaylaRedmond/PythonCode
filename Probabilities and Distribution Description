@@ -1,0 +1,23 @@
+
+Python program names:     Probabilities.py
+                          Distributions.py
+
+Program function:     
+
+Probabilities:     Five people flip a fair coin, and the "odd person out" - meaning that all but one have coins with the same face 
+showing, while the odd person out has the opposite face, wins the game.  Simulate 2000 games, calculate the average number of flips 
+required for the odd person out to win (around 3 flips), and plot the flip distribution for the 2000 games (seen in "Fair Coin Distribution" graph).
+Re-run code if one person has a biased coin, where heads appears with a probability of 0.3 and tails with 0.7.  With a biased coin for 2000
+simulations, the average number of flips required for the odd person out to win is around 6, and replot the flip distribution
+(seen in "Bias Coin Distribution" graph).
+
+Distributions:     Generate computer plots of the Binomial and Poisson distributions for p = 0.35 N = 4, and p = 0.35 N = 40.  Overlaid 
+over those distributions are Gaussian distributions that give the best approximation to the Binomial or Poisson distribution
+(seen in "Binomial Distribution" and "Poisson Distribution" graphs).
+
+
+Program command line arguments:    
+          
+          python Probabilities.py
+          python Distributions.py
+
