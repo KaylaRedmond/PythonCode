@@ -1,0 +1,30 @@
+
+Python program names:     Monte_Carlos.py
+                          ImportanceSampling.py
+
+Program functions:     
+
+Monte Carlos:     Generate Gaussian distributions, containing 10000 numbers, with a mean mu = 0.0 and a standard deviation sigma = 1 using 
+various Monte Carlo techniques, and print the time it takes python to generate each distribution.  Fist, use the Box Mueller method to generate
+a Gaussian distribution and plot histograms of the distributions for z1 and z2 as well as the Gaussian function (seen in "BoxMuellerGaussianz1" 
+and "BoxMuellerGaussianz2" graphs).  Next, use the Von Neumann acceptance-rejection technique to generate a Gaussian function and plot that
+distribution along with the true Gaussian function (seen in "VonNeumannGaussian" graph).  Use the Metropolis random walk method to generate
+a Gaussian distribution and plot that along with the true Gaussian function (seen in "MetropolisGaussian" graph).  Finally, use a random number
+generator algorithm to generate a Gaussian distribution and plot the resulting distribution (seen in "AlgorithmGaussian" graph).  
+
+Importance Sampling:     Use importance sampling Monte Carlo technique to evaluate the integral of  ( x^(3/2) e^(-x) dx ) from 0 to 3, using
+the importance function w(x) = e^(-x).  First, I plot the function f(x), along with f(x)/w(x)  (seen in "ExponentialFunction" and "ExponentiaFunctionOverImportance" 
+graphs).  Using a sample mean function, I evaluate the integral 2000 times and print the resuting integration value (~ 1).  Next, use importance
+sampling Monte Carlo technique to evaluate the integral of  ( 1/(x^2 + (cosx)^2) dx) from 0 to pi using the importance function 
+w(x) = Ae^(-ax) where A is chosen such that the integral of (w(x) dx) from x1 to x2 equals 1.  The functions f(x) and f(x)/w(x) are once 
+again plotted (seen in "CosineFunction" and "CosineFunctionOverImportance" graphs).  In addition, the python program determines the 
+value of a that minimizes the variance of the integral.  It does so by stepping through a values from 0.1 to 2.0 and calculating the variance.
+From that, we see that an a=0.8 minimizes the variance to ~0.07.  Using that value for a, we calculate the integral using a sample mean function,
+evaluate the integral 2000 times, and print the resulting integration value (~ 1.57).
+
+
+Program command line arguments:    
+          
+          python Monte_Carlos.py
+          python ImportanceSampling.py
+
