@@ -3,8 +3,6 @@ Python program name:     NumericalIntegration.py
                          sin2xRomberg.py
                          Monte_Carlo_10D_Integral.py
 
-
-
 Program functions:     
 
 Numerical Integration:     Evaluate the integral of (e^-x dx) from 0 to 1 using muliple numerical integration methods.  First, plot the function 
@@ -22,7 +20,6 @@ Python also performs a similar analysis integrating instead from 0 to pi, as a m
 Monte Carlo Integration:      Evaluate the ten dimensional integral of [(x1 + x2 + ... x10)^2 dx10...] each from 0 to 1 using the Sample
 Mean Monte Carlo technique.  Using sampe sizes of n = 2,4,8,16,32,64,128...16384, python print n, 1/sqrt[n], mean, relative error for each
 value of n.  In addition, python prints the error vs. sample size for this technique (seen in "MonteCarlo10DError" graph).
-
 
 
 
