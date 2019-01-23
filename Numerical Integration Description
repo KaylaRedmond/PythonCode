@@ -1,0 +1,33 @@
+
+Python program name:     NumericalIntegration.py
+                         sin2xRomberg.py
+                         Monte_Carlo_10D_Integral.py
+
+
+
+Program functions:     
+
+Numerical Integration:     Evaluate the integral of (e^-x dx) from 0 to 1 using muliple numerical integration methods.  First, plot the function 
+in question (seen in "e-xPlot" graph).  Then calculate the integral using the Extended Trapezoidal method for N = 1,2,4,8,16,32,64,128,256,512
+intervals.  For each interval, python prints N, the step size, the numerical integration value, and the relative error.  Then plot the relative
+error vs the step size for the trapezoidal method (seen in "TrapezoidalError" graph).  Next, calcuate the integral using the Romberg integration
+method, with python printing the numerical integration value and the relative error for each N.  Finally, calculate the integral using a 
+hit or miss Monte Carlo method for n=10,20,50,100,200,500...10000, with python printing n, the numerical integration value, and the 
+relative error.  Python also plots the relative error vs. n (seen in "MonteCarloError" graph).  
+
+Romberg Integration:     Evaluate the integral of ((sinx)^2 dx) from 0 to 4pi using Romberg integration.  Python first plots the function in
+question (seen in "sin2xGraph" graph).  Python prints the R values, as well as the convergence criteria for each row of the Romberg integration.
+Python also performs a similar analysis integrating instead from 0 to pi, as a means to test that the integral is converging.  
+
+Monte Carlo Integration:      Evaluate the ten dimensional integral of [(x1 + x2 + ... x10)^2 dx10...] each from 0 to 1 using the Sample
+Mean Monte Carlo technique.  Using sampe sizes of n = 2,4,8,16,32,64,128...16384, python print n, 1/sqrt[n], mean, relative error for each
+value of n.  In addition, python prints the error vs. sample size for this technique (seen in "MonteCarlo10DError" graph).
+
+
+
+
+Program command line arguments:    
+          
+          python NumericalIntegration.py
+          python sin2xRomberg.py
+          python Monte_Carlo_10D_Integral.py
