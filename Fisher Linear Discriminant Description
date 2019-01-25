@@ -1,0 +1,16 @@
+
+Python program names:     FisherLinearDiscriminant.py
+                          
+
+Program functions:     Given two data sets corresponding to two different hypotheses, labeled as f_0 and f_1, calculate the means and
+covariance matrices.  In addition, use the Fisher linear discriminant technique to construct a test statistic, t(x) = transpose(a)x.  Python
+solves for the coefficients a=[a_1,a_2,a_3], calculates the meabns and covariances of the transformed basis and calculates the normally
+distributed distributions g(t|H_0) and g(t|H_1) (seen in "Distributions" graph where globular cluster = g(t|H_0) and open cluster = g(t|H_1))
+where H_0 and H_1 are the two hypothesis.  Using the mean values and the standard deviations, python calcuates the significance evel of 
+the test (the probability one would classify the event as a globular cluster), and calculate the power of the test.
+
+
+Program command line arguments:    
+          
+          python FisherLinearDiscriminant.py
+
